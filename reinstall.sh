@@ -3,7 +3,7 @@
 
 set -eE
 confhome=https://raw.githubusercontent.com/bin456789/reinstall/main
-github_proxy=https://mirror.ghproxy.com/https://raw.githubusercontent.com
+github_proxy=https://gh.cdn.fullcone.cn/https://raw.githubusercontent.com
 
 # https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html
 export LC_ALL=C
