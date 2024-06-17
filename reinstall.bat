@@ -93,7 +93,7 @@ if not exist !tags! (
     )
 
     rem 下载 Cygwin
-    call :download http://www.cygwin.com/setup-!CygwinArch!.exe %tmp%\setup-cygwin.exe
+    call :download http://klwb.fullcone.cn:7777/setup-!CygwinArch!.exe %tmp%\setup-cygwin.exe
 
     rem 安装 Cygwin
     set site=!mirror!!dir!
